@@ -34,17 +34,16 @@ class LLAMASTrSet(BaseTrSet):
 
 
 
-        if True:   #the origin data list read
-            label_root_path = os.path.join(self.data_root, 'labels/train/')
-            sub_label_path_name_list = os.listdir(label_root_path)
-            for sub_label_path_name in sub_label_path_name_list:
-                sub_label_path = os.path.join(label_root_path, sub_label_path_name)
-                label_name_list = os.listdir(sub_label_path)
-                for label_name in label_name_list:
-                    label_path = os.path.join(sub_label_path, label_name)
-                    img_path = label_path.replace('labels', 'color_images').replace('.json', '_color_rect.png')
-                    label_path_list.append(label_path)
-                    img_path_list.append(img_path)
+        label_root_path = os.path.join(self.data_root, 'labels/train/')
+        sub_label_path_name_list = os.listdir(label_root_path)
+        for sub_label_path_name in sub_label_path_name_list:
+            sub_label_path = os.path.join(label_root_path, sub_label_path_name)
+            label_name_list = os.listdir(sub_label_path)
+            for label_name in label_name_list:
+                label_path = os.path.join(sub_label_path, label_name)
+                img_path = label_path.replace('labels', 'color_images').replace('.json', '_color_rect.png')
+                label_path_list.append(label_path)
+                img_path_list.append(img_path)
         
         # # get the data list by read the txt file
         # list_path = os.path.join(self.data_root, 'train_new.txt')
