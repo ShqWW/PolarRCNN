@@ -43,7 +43,7 @@ def remove(lines):
         img = cv2.imread(img_path)
 
         diff = np.abs(img.astype(np.float32) - prev_img.astype(np.float32)).sum() / (img.shape[0] * img.shape[1] * img.shape[2])
-        if diff > 6:
+        if diff > 7:
             save_lines.append(line + '\n')
     return save_lines
 

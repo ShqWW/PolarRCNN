@@ -1,4 +1,4 @@
-cfg_name = 'polarrcnn_llamas_r18'
+cfg_name = 'polarrcnn_llamas_dla34'
 ############### import package ######################
 import math
 import cv2
@@ -35,7 +35,7 @@ offset_stride = 4.507
 
 ######################network parameter#################################
 #####backbone#####
-backbone = 'resnet18'
+backbone = 'dla34'
 pretrained = True
 
 #####neck#####
