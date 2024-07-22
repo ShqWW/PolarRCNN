@@ -44,7 +44,7 @@ class CurveLanesEvaluator(BaseEvaluator):
             file_name, ori_img_shape = file_name_with_shape
             out_path = os.path.join(self.result_path, file_name.replace('.jpg', '.lines.json').replace('images', 'labels'))
             lanes = deresize_output(lanes, ori_img_shape, self.cut_height, self.cut_height_dict[ori_img_shape], self.ori_img_h)
-            write_output_curvelanes_format(lanes, ori_img_shape, out_path, step_size=4)
+            write_output_curvelanes_format(lanes, ori_img_shape, out_path, step_size=1)
     
     def view_output(self, outputs, file_names_with_shape, ori_imgs):
         line_paras_batch = outputs['anchor_embeddings'].copy()
