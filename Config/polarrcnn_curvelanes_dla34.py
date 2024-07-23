@@ -50,10 +50,9 @@ downsample_strides = [8, 16, 32]
 #####rpn head#####
 rpn_head = 'local_polar_head'
 rpn_inchannel = neck_dim
-polar_map_size = (6, 15)
-num_priors = 90
-num_training_priors = num_priors
-num_testing_priors = 70
+polar_map_size = (6, 13)
+num_training_priors = polar_map_size[0]*polar_map_size[1]
+num_testing_priors = 78
 angle_noise_p = 0.025
 rho_noise_p = 0.25
 
@@ -63,8 +62,8 @@ num_feat_samples = 36
 fc_hidden_dim = 192
 prior_feat_channels = 64
 num_line_groups = 6
-gnn_inter_dim = 192
-iou_dim = 128
+gnn_inter_dim = 128
+iou_dim = 5
 o2o_angle_thres = math.pi/6
 o2o_rho_thres = 50
 
