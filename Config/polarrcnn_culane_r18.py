@@ -104,7 +104,7 @@ conf_thres = 0.48
 conf_thres_o2o = conf_thres
 conf_thres_nmsfree = 0.46
 is_nmsfree = True
-is_nmsfree = False
+# is_nmsfree = False
 
 
 # batch_size = 24
