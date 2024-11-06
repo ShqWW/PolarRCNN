@@ -108,11 +108,3 @@ conf_thres_o2o = conf_thres
 conf_thres_nmsfree = 0.44
 is_nmsfree = True
 # is_nmsfree = False
-
-
-# batch_size = 24
-# epoch_num = 1
-# warmup_iter = 1
-# batch_size = 40
-# epoch_num=8
-# conf_thres = 0.66

@@ -10,3 +10,4 @@ Cython
 tensorboard
 prefetch_generator
 tabulate
+scikit-learn
