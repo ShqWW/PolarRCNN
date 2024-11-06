@@ -5,32 +5,17 @@
 </div>
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自适应图片表格</title>
     <style>
-        .auto_img {
-            width: 100%; /* 宽度占满单元格 */
-            height: auto; /* 高度自适应，保持比例 */
-            aspect-ratio: 16/9; /* 设置宽高比为16:9，高度自动根据宽度调整 */
-        }
-        table {
-            width: 100%; /* 表格宽度占满父容器 */
-            border-collapse: collapse; /* 合并表格边框 */
-            border-spacing: 0; /* 去除表格的默认间距 */
-            table-layout: fixed; /* 固定表格布局，使单元格宽度均匀 */
-        }
-        td {
-            padding: 5px; /* 控制单元格内边距，减小图片之间的间距 */
-            text-align: center; /* 单元格内容居中 */
-        }
+        
     </style>
-</head>
+</head> -->
 
-
+<link rel="stylesheet" href="styles.css">
 
 
 # Introduction
