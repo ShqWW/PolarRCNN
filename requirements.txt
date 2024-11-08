@@ -1,0 +1,13 @@
+numpy
+albumentations
+opencv-python
+scipy
+tqdm
+p_tqdm
+matplotlib
+shapely
+Cython
+tensorboard
+prefetch_generator
+tabulate
+scikit-learn
