@@ -24,7 +24,7 @@
   <img src="resources/model-architecture.png" style="width: 100%, height: auto;"/>
 </div>
 
-PyTorch implementation of the paper "[Polar R-CNN: End-to-End Lane Detection with Fewer Anchors](https://arxiv.org/pdf/2411.01499)".
+#PyTorch implementation of the paper "[Polar R-CNN: End-to-End Lane Detection with Fewer Anchors](https://arxiv.org/pdf/2411.01499)".
 
 Features:
 - Reduced Anchor Requirements: 20 anchors is all you need.
